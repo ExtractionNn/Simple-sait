@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+    <title>Document</title>
+</head>
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="#" id="about">About</a>
+        <a href="#" id="blog">Blog</a>
+        <a href="#" id="projects">Projects</a>
+        <a href="#" id="contact">Contact</a>
+      </div>
+ 
+ <div class="wrapper">
+    <section class="fullscreen">
+        <div class="fullscreen_body"> 
+            
+            <h1 class="fullscreen_title">Ето будет мойм первым сайтом</h1>
+            <div class="fullscreen__text">Думаю у меня все получится </div>
+            <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up</button>
+
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">×</span>
+  <form class="modal-content" action="/action_page.php">
+    <div class="container">
+      <h1>Sign Up</h1>
+      <p>Please fill in this form to create an account.</p>
+      <hr>
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <label for="psw-repeat"><b>Repeat Password</b></label>
+      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+      
+      <label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+      </label>
+
+      <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+      <div class="clearfix">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+        <button type="submit" class="signupbtn">Sign Up</button>
+      </div>
+    </div>
+  </form>
+</div>
+            <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+            <div id="id01" class="modal">
+              
+              <form class="modal-content animate" action="/action_page.php">
+                <div class="imgcontainer">
+                  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">×</span>
+                  <img src="img_avatar2.png" alt="Avatar" class="avatar">
+                </div>
+            
+                <div class="container">
+                  <label for="uname"><b>Username</b></label>
+                  <input type="text" placeholder="Enter Username" name="uname" required>
+            
+                  <label for="psw"><b>Password</b></label>
+                  <input type="password" placeholder="Enter Password" name="psw" required>
+                    
+                  <button type="submit">Login</button>
+                  <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                  </label>
+                </div>
+            
+                <div class="container" style="background-color:#f1f1f1">
+                  <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                  <span class="psw">Forgot <a href="#">password?</a></span>
+                </div>
+              </form>
+            </div>
+            
+            
+        </div>
+    </section>
+
+</div>
+    <div class="content"> 
+        <div class="content__body"> 
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, placeat dolore. Voluptate vitae qui
+                , impedit assumenda autem neque tempore quia alias ratione optio blanditiis sequi exercitationem,
+                 minima, labore sunt aperiam.</p>
+                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, placeat dolore. Voluptate vitae qui
+                    , impedit assumenda autem neque tempore quia alias ratione optio blanditiis sequi exercitationem,
+                     minima, labore sunt aperiam.</p>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, placeat dolore. Voluptate vitae qui
+                        , impedit assumenda autem neque tempore quia alias ratione optio blanditiis sequi exercitationem,
+                         minima, labore sunt aperiam.</p>
+                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, placeat dolore. Voluptate vitae qui
+                            , impedit assumenda autem neque tempore quia alias ratione optio blanditiis sequi exercitationem,
+                             minima, labore sunt aperiam.</p>
+        </div>
+        <footer class="footer">
+            <div class="Footer__body">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis nihil ratione laudantium enim maxime optio labore molestiae sunt cumque rem?
+            </div>
+        </footer>
+    
+    </div>
+    
+    <div class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="https://www.youtube.com/channel/UCgbXjnxc2UZemewmQ3sOcww">YouTube</a>
+        <a href="#Vk">Vk</a>
+    </div>
+    
+
+</body>
+</html>
